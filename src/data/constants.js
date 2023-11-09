@@ -7,7 +7,7 @@ export const Bio = {
     "UI/UX Designer",
     "Programmer",
   ],
-  description: `A self-confident software engineer with 2+ years of experience in full-stack development. A sharp problem solver who spent extra time on competitive programming to enhance problem-solving skills. A team leader for approximately 5 years in college, honing skills as a great team player.`,
+  description: `A self-confident software engineer with 2+ years of experience in full-stack development. A sharp-minded problem solver who spent extra time on competitive programming to enhance problem-solving skills. A team leader for approximately 5 years in college, honing skills as a great team player.`,
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/tewodros-misawoy-431378260/",
