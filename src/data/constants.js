@@ -202,7 +202,7 @@ export const experiences = [
     role: "FULL STACK DEVELOPER INTERN",
     company: "AppFactory Academy",
     date: "Aug 2022 - Sep 2022",
-    desc: "As a key contributor to the AppFactory Academy team, I specialize in training weather prediction machine learning models and seamlessly integrating them into a fitness mobile app. I hold a pivotal role in the development of a full-stack fitness application, taking charge of both the frontend and backend aspects of the project. My expertise lies in bridging the gap between cutting-edge machine learning technology and user-friendly mobile applications.",
+    desc: "As a key contributor to the AppFactory Academy intern team, I specialize in training weather prediction machine learning models and seamlessly integrating them into a fitness mobile app. I hold a pivotal role in the development of a full-stack fitness application, taking charge of both the frontend and backend aspects of the project. My expertise lies in bridging the gap between cutting-edge machine learning technology and user-friendly mobile applications.",
     skills: [
       "NodeJs",
       "Flutter",
@@ -211,6 +211,7 @@ export const experiences = [
       "Dart",
       "TypeScript",
       "JavaScript",
+      "Machine Learning",
     ],
   },
 ];
@@ -240,7 +241,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: "BLOOD DONATION APP",
     date: "February 2023 - April 2023",
     description:
@@ -248,6 +249,33 @@ export const projects = [
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: ["Flutter", "Node Js", "Express Js", "MongoDB", "NodeMailer"],
+    category: "mobile app",
+    github: "https://github.com/rishavchanda/Trackify",
+    webapp: "https://trackify.duckdns.org",
+    member: [
+      {
+        name: "Tewodros Misawoy",
+        img: heroImage,
+        linkedin: "https://www.linkedin.com/in/tewodros-misawoy-431378260/",
+        github: "https://github.com/Tewodros01",
+      },
+      {
+        name: "Leul Sileshi",
+        img: leul,
+        linkedin: "https://www.linkedin.com/in/leul-sileshi/",
+        github: "https://github.com/Lulusha-XT",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Blood Donation React App",
+    date: "February 2023 - April 2023",
+    description:
+      "Developed a purpose-driven Blood Donation React App with a dedicated Sponsor Page, facilitating connections between sponsors and a community of generous donors. Sponsors who register on this platform gain access to a diverse pool of donors. To express gratitude for their support, donors receive tokens, which can be redeemed for exclusive discounts. This innovative approach fosters a mutually beneficial relationship between sponsors and the noble act of blood donation.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags: ["React", "Node Js", "Express Js", "MongoDB", "NodeMailer"],
     category: "web app",
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://trackify.duckdns.org",
@@ -267,7 +295,7 @@ export const projects = [
     ],
   },
   {
-    id: 0,
+    id: 2,
     title: "FITNESS APP",
     date: "May 2023 - September 2023",
     description:
@@ -275,21 +303,61 @@ export const projects = [
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["Flutter", "Node Js", "Express Js", "PostgreSQL", "NodeMailer"],
-    category: "web app",
+    category: "mobile app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "DIGITAL MAGAZINE APP",
     date: "May 2023 - September 2023",
     description: "Developed a digital magazine tailored for campus students",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: ["Flutter", "Laravel", "Firebase"],
-    category: "web app",
+    category: "mobile app",
     github: "https://github.com/rishavchanda/Project-Management-App",
     webapp: "https://vexa-app.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Grocery Shopping App",
+    date: "May 2023 - September 2023",
+    description:
+      "Developed a mobile application for efficient grocery shopping, providing a seamless experience for users to browse, select, and purchase groceries. The app is designed to cater to the needs of users looking for a convenient way to manage their grocery lists and make hassle-free purchases.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    tags: ["Flutter", "Firebase", "Mobile App"],
+    category: "mobile app",
+    github: "https://github.com/Tewodros01/Flutter-NodeJs-Grocery-App",
+    webapp: "https://your-grocery-app-url.com/",
+    member: [
+      {
+        name: "Tewodros Misawoy",
+        img: heroImage,
+        linkedin: "https://www.linkedin.com/in/tewodros-misawoy-431378260/",
+        github: "https://github.com/Tewodros01",
+      },
+      {
+        name: "Leul Sileshi",
+        img: leul,
+        linkedin: "https://www.linkedin.com/in/leul-sileshi/",
+        github: "https://github.com/Lulusha-XT",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Weather Prediction Machine Learning Model",
+    date: "Jan 2021",
+    description:
+      "A machine learning model implemented in Python for weather prediction. This model leverages historical weather data and utilizes machine learning algorithms to forecast future weather conditions. Features may include temperature trends, precipitation forecasts, and more. The project offers insights into upcoming weather based on the trained machine learning model.",
+    image:
+      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
+    tags: ["Python", "Machine Learning", "Data Science"],
+    category: "machine learning",
+    github: "https://github.com/Tewodros01/Wether-Prediction-model",
+    webapp: "https://github.com/rishavchanda/Face-Recognition-AI-with-Python",
   },
 ];
 
