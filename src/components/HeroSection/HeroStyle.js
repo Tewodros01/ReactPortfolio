@@ -114,9 +114,9 @@ export const Img = styled.img`
 
 export const Title = styled.div`
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: 58px;
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -130,11 +130,11 @@ export const Title = styled.div`
 
 export const TextLoop = styled.div`
   font-weight: 600;
-  font-size: 32px;
+  font-size: 22px;
   display: flex;
-  gap: 12px;
+  gap: 10px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: 48px;
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -176,7 +176,7 @@ export const ResumeButton = styled.a`
     text-align: center;
     padding: 16px 0;
     color:${({ theme }) => theme.white};
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
@@ -192,12 +192,12 @@ export const ResumeButton = styled.a`
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
-    }    
-    
-    
+    }
+
+
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
-    } 
+    }
 
 `;

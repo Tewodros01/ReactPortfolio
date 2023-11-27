@@ -183,7 +183,7 @@ export const experiences = [
     company:
       "Alephtav Consultancy and Trading PLC Information Technology Department",
     date: "October 2023 - Present",
-    desc: "I specialize in driving collaboration between frontend and backend development for Alephtav Plc's IMS Project. My role involves seamlessly integrating both aspects, ensuring a cohesive and efficient system. Dedicated to elevating user experiences through harmonized technology.",
+    desc: "I specialize in driving collaboration between frontend and backend development for Alephtav Plc's Project. My role involves seamlessly integrating both aspects, ensuring a cohesive and efficient system. Dedicated to elevating user experiences through harmonized technology.",
     skills: [
       "Node Js",
       "Express Js",
@@ -250,7 +250,7 @@ export const projects = [
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: ["Flutter", "Node Js", "Express Js", "MongoDB", "NodeMailer"],
     category: "mobile app",
-    github: "https://github.com/rishavchanda/Trackify",
+    github: "Private",
     webapp: "https://trackify.duckdns.org",
     member: [
       {
@@ -277,8 +277,8 @@ export const projects = [
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: ["React", "Node Js", "Express Js", "MongoDB", "NodeMailer"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "Private",
+    webapp: "",
     member: [
       {
         name: "Tewodros Misawoy",
@@ -295,7 +295,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "FITNESS APP",
     date: "May 2023 - September 2023",
     description:
@@ -304,20 +304,8 @@ export const projects = [
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["Flutter", "Node Js", "Express Js", "PostgreSQL", "NodeMailer"],
     category: "mobile app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-  },
-  {
-    id: 3,
-    title: "DIGITAL MAGAZINE APP",
-    date: "May 2023 - September 2023",
-    description: "Developed a digital magazine tailored for campus students",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: ["Flutter", "Laravel", "Firebase"],
-    category: "mobile app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "Private",
+    webapp: "",
   },
   {
     id: 4,
@@ -329,7 +317,7 @@ export const projects = [
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: ["Flutter", "Firebase", "Mobile App"],
     category: "mobile app",
-    github: "https://github.com/Tewodros01/Flutter-NodeJs-Grocery-App",
+    github: "https://github.com/Tewodros01/Grocer_App_Flutter",
     webapp: "https://your-grocery-app-url.com/",
     member: [
       {
@@ -348,6 +336,19 @@ export const projects = [
   },
   {
     id: 5,
+    title: "DIGITAL MAGAZINE APP",
+    date: "May 2023 - September 2023",
+    description: "Developed a digital magazine tailored for campus students",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    tags: ["Flutter", "Laravel", "Firebase"],
+    category: "mobile app",
+    github: "",
+    webapp: "https://vexa-app.netlify.app/",
+  },
+
+  {
+    id: 6,
     title: "Weather Prediction Machine Learning Model",
     date: "Jan 2021",
     description:
